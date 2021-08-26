@@ -1,0 +1,127 @@
+body {
+  font-family: "Red Hat Display";
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e0e8ff;
+}
+
+.container {
+  padding: 50px 30px;
+  max-width: 30rem;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  opacity: 0.8;
+  padding: 0 10px;
+}
+
+.price-box {
+  text-align: left;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+  margin: 25px 0;
+}
+
+.price-box a {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.price-box a:hover {
+  color: rgba(56, 41, 224, 0.637);
+  text-decoration: none;
+}
+
+.price-text {
+  margin: 0 15% 0 0;
+}
+
+.price-text h6 {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.price-text span {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 13px 0;
+  font-size: 14px;
+}
+
+.payment-btn {
+  color: white;
+  background-color: #3829e0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 30px 35px -10px #94adf3;
+          box-shadow: 0px 30px 35px -10px #94adf3;
+  margin-bottom: 10px;
+}
+
+.payment-btn:hover {
+  color: white;
+  background-color: rgba(56, 41, 224, 0.637);
+}
+
+.cancel-btn {
+  color: rgba(0, 0, 0, 0.74);
+}
+
+@media (min-width: 990px) {
+  .container {
+    margin: 50px auto;
+  }
+  .card {
+    -webkit-box-shadow: 0px 30px 35px -10px #d3d6de;
+            box-shadow: 0px 30px 35px -10px #d3d6de;
+  }
+  .card-body {
+    padding: 20px 35px;
+  }
+  .card-text {
+    font-size: 16px;
+    padding: 0;
+  }
+  .price-box a {
+    font-size: 14px;
+  }
+  .price-text {
+    margin: 0 25% 0 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
